@@ -34,6 +34,7 @@ input, select{
     padding: 5px;
     margin-left: 20px;
     border-radius: 20px;
+
 }
 
 button{
@@ -75,9 +76,31 @@ p{
 .info{
     align-items: center;
     display: flex;
-    float: right;
-    margin-right: 20px;
+    position: fixed;
+    margin-left: 23%;
 }
 #Atualizacao{
     font-size: 12px;
+}
+option{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+}
+
+@media  screen and (max-width: 1000px){
+
+    .informacoesAdicionais{
+        margin: auto;
+        padding: 30px 0px;
+    }
+    .info{
+        margin: 50px 0px 0px 60px; 
+    }
+
+    #ValorConvertido{
+        margin-left: 30px;
+    }
+    .container{
+        height: 600px;
+    }
 }
