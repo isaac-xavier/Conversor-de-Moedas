@@ -1,0 +1,83 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+    height: 515px;
+    background-color: rgb(37, 37, 29);
+    border-radius: 20px;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(194, 194, 0)
+}
+
+input, select{
+    width: 40%;
+    height: 35px;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: rgb(90, 90, 99);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    margin: 10px 30px;
+}
+
+.resultado{
+    margin-top: 20px;
+}
+
+.ValordaCotacao{
+    margin-top: 15px;
+}
+.valormoeda{
+    display: inline;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline;
+    color: aliceblue;
+}
+
+.informacoesAdicionais{
+    position: fixed;
+    display: flex;
+    margin-left: 250px;
+}
+
+.venda{
+    margin-top: 0;
+    display: flex;
+}
+
+.info{
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+#Atualizacao{
+    font-size: 12px;
+}

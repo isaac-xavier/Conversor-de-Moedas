@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./imagens/imagem.png" alt="">
+        <h1>CONVERSOR DE MOEDAS</h1>
+        <h2>Selecione a moeda</h2>
+
+        <form action="">
+        <select type="text" name="moeda" id="modeselecionada">
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR" selected>Euro</option>
+            <option value="ARS">Peso Argentino</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="JPY">Iene Japonês</option>
+            <option value="CHF">Franco Suíço</option>
+            <option value="AUD">Dólar Australiano</option>
+            <option value="CNY">Yuan Chinês</option>
+            <option value="GBP">Libra Estrelinha</option>
+        </select>
+        <input id="ValorAconverter" type="number" placeholder="Valor a Converter">
+    </form>
+    <button onclick="buscarinfor()">Calcular</button>
+
+    <div class="resultado"> 
+        <h2 class="valormoeda">Valor Convertido em Real: </h2>
+        <p id="paisMoeda">R$</p>
+        <p id="ValorConvertido"></p>
+    </div>
+    <div class="ValordaCotacao">
+        <h2 class="valormoeda">Cotação Atual:</h2>
+        <p id="cotacaoatual"></p>
+    </div>
+
+    <div class="informacoesAdicionais">
+        <h2>Variação da Moeda</h2>
+        <p id="Variacao"></p>
+    </div>
+    <div class="venda">
+        <h2 class="TituloVenda">Valor de Venda:</h2>
+        <p id="valordeVenda"></p>
+    </div>
+    
+    <div class="info">
+        <h2>Atualizado em:</h2>
+        <p id="Atualizacao"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
